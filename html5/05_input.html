@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Elementos de entrada</title>
+</head>
+<body>
+	<form action="" method="post">
+	<h4>COLOR:</h4> <input type="color" value="#ff0000">
+
+	<h4>FECHA:</h4>
+		<input type="date">
+	
+	<h4>HORA:</h4>
+	    <input type="time">
+
+    <h4>EMAIL:</h4>
+	   <input type="email" placeholder="Escribe tu correo" required autofocus=""><!--required: validamos el email, requiered autofocus: seleccion de casilla --><!--placeholder : para escribir un mensaje dentro del input-->
+
+	<h4>MES:</h4>
+	   <input type="month">
+
+	<h4>NUMERO:</h4>
+	 	<input type="number" min="18" max="96" required=""> <!-- min,max: sirve para poner un minimo y maximo de numero -->
+ 
+	<h4>RANGO:</h4>
+	<!--oninput evento para coger el valor del id y haga esto--> <!--step: para poner un rango -->
+		<input type="range" step="50" oninput="orango.value=this.value">
+		<output id="orango"></output>
+
+	<h4>BUSCAR:</h4>
+	 	<input type="search">
+
+	 <h4>TIEMPO:</h4>
+	 	<input type="time">
+
+	 <h4>URL:</h4>
+	 	<input type="url">
+
+
+	 <h4>SEMANA:</h4>
+	 	<input type="week">
+
+   <br><br>
+		
+		<h4>LISTA:</h4>
+		
+		<input	list=“lenguajes”>	
+<datalist	id=“lenguajes”>	<!--datalist: sirve para tener una lista de busqueda -->
+	 	<option	value=“python”>Python</option>	
+		<option	value=“ruby”>Ruby</option>	
+		<option value="c#">C#</option>
+		<option value="php">Php</option>
+</datalist>
+	 <br><br>
+			<button  type="submit">Validar</button>
+	</form>
+</body>
+</html>

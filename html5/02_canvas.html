@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Canvas HTML5</title>
+</head>
+<body>
+	<h2>Cuadrado</h2>
+	<canvas id="cuadrado"></canvas>
+	<h2>Rectangulo</h2>
+	<canvas id="rectangulo"></canvas>
+	<h2>Triangulo</h2>
+	<canvas id="triangulo"></canvas>
+	<h2>Circulo</h2>
+	<canvas id="circulo"></canvas>
+	<h2>Corazon</h2>
+	<canvas id="corazon"></canvas>
+	<h2>Texto</h2>
+	<canvas id="cuadrado"></canvas>
+	<canvas  id="micanvas"> </canvas>
+   
+	<script>
+	  // para dibujar un cuadrado rojo	
+	 var canvas = document.getElementById('cuadrado');	
+	 var cubo =	canvas.getContext('2d');	
+	 cubo.fillStyle ='#f00';	
+	 cubo.fillRect(0,0,100,100);
+      
+	 // para dibujar un rectangulo rojo	
+	 var canvas = document.getElementById('rectangulo');	
+	 var cubo =	canvas.getContext('2d');	
+	 cubo.fillStyle ='#f00';	
+	 cubo.fillRect(0,0,300,100);
+
+	 // para dibujar un triangulo rojo	
+	  var canvas = document.getElementById('triangulo');	
+	 var cubo =	canvas.getContext('2d');
+	 cubo.fillStyle ='#f00';
+	 cubo.beginPath();
+	 cubo.moveTo(10, 110);
+	 cubo.lineTo(110, 10);
+	 cubo.lineTo(210, 110);
+	 cubo.closePath();
+	 cubo.fill();
+
+
+	//circulo
+     var canvas = document.getElementById("circulo");
+     var ctx = canvas.getContext("2d");
+     ctx.fillStyle='#c00';
+     ctx.beginPath();
+     ctx.arc(95,50,40,0,2*Math.PI, true);
+     ctx.fill();
+     ctx.closePath();
+     ctx.stroke();
+
+     // Corazon
+
+    var canvas = document.getElementById('corazon');
+    var ctx = canvas.getContext('2d');
+    ctx.beginPath();
+    ctx.fillStyle="red";
+    ctx.moveTo(75,40);
+    ctx.bezierCurveTo(75,37,70,25,50,25);
+    ctx.bezierCurveTo(20,25,20,62.5,20,62.5);
+    ctx.bezierCurveTo(20,80,40,102,75,120);
+    ctx.bezierCurveTo(110,102,130,80,130,62.5);
+    ctx.bezierCurveTo(130,62.5,130,25,100,25);
+    ctx.bezierCurveTo(85,25,75,37,75,40);
+    ctx.fill();
+
+    // texto
+
+   var canvas = document.getElementById("micanvas");
+   var ctx = canvas.getContext("2d");
+   ctx.font = "bold 22px sans-serif";
+   ctx.fillText("Su navegador no soporta el elemento CANVAS", 10,10);
+   
+    
+</script> 
+
+
+</body>
+</html>
