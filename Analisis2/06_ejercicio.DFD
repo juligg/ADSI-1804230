@@ -1,0 +1,76 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+20
+"Digite el numero 1"
+5
+1
+7
+numero1
+4
+1
+20
+"Digite el numero 2"
+5
+1
+7
+numero2
+4
+1
+20
+"Digite el numero 3"
+5
+1
+7
+numero3
+4
+1
+20
+"Digite el numero 4"
+5
+1
+7
+numero4
+7
+0
+1
+55
+numero1>numero2 and numero1>numero3 and numero4<numero1
+7
+0
+1
+55
+numero2>numero1 and numero2>numero3 and numero4<numero2
+7
+0
+1
+55
+numero3>numero2 and numero3>numero1 and numero4<numero3
+4
+1
+22
+"numero 4 es el mayor"
+13
+4
+1
+25
+"El numero 3 es el mayor"
+13
+13
+4
+1
+25
+"El numero 2 es el mayor"
+13
+13
+4
+1
+22
+"Numero 1 es el mayor"
+13
+1

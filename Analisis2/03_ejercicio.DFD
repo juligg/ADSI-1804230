@@ -1,0 +1,52 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+18
+"Digite un numero"
+5
+1
+6
+numero
+7
+0
+1
+11
+numero >= 0
+4
+1
+23
+"el numero es negativo"
+13
+4
+1
+26
+"Digite un segundo numero"
+5
+1
+7
+numero2
+6
+3
+10
+operacion1
+16
+numero - numero2
+10
+operacion2
+16
+numero + numero2
+10
+operacion3
+21
+operacion1*operacion2
+4
+1
+142
+"el resultado de la suma es: " , operacion2 ,"el resultado de la resta es:", operacion1,"la multiplicacion de los resultados es: ", operacion3
+13
+1

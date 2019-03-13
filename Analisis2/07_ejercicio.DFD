@@ -1,0 +1,41 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+57
+"Digite la tempera tura del agua en grados centigrados  "
+5
+1
+6
+estado
+7
+0
+1
+11
+estado < 0 
+7
+0
+1
+12
+estado <=100
+4
+1
+5
+"Gas"
+13
+4
+1
+9
+"Liquido"
+13
+13
+4
+1
+8
+"Solido"
+13
+1

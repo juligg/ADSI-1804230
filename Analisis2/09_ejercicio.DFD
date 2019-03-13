@@ -1,0 +1,44 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+26
+"Diga el total de minutos"
+5
+1
+7
+minutos
+7
+0
+1
+12
+minutos <= 5
+6
+3
+5
+resta
+11
+minutos - 5
+14
+multiplicacion
+11
+resta * 150
+8
+minutosA
+20
+multiplicacion + 200
+4
+1
+44
+"Los minutos que debe pagar son: ", minutosA
+13
+4
+1
+38
+"Debe pagar 200 pesos por los minutos"
+13
+1
